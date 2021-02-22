@@ -1,0 +1,38 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: NKUST Thesis Template
+  gh_user: yuhao-kuo
+  repo: NKUST-thesis-template
+  img: https://www.nkust.edu.tw/var/file/0/1000/img/513/533313901.png
+  desc: It is based on LaTex for National Kaohsiung University of Science and Technology thesis template. I extended the project with ...
+
+- name: WasmVM - WebAssembly VM
+  gh_user: WasmVM
+  repo: WasmVM
+  img: https://duckduckgo.com/i/88327ad5.png
+  desc: Using C language to build a VM that can run WebAssembly.
+
+- name: C-like interpreter
+  gh_user: yanjiuntw
+  repo: learning_make_C_interpreter
+  img:
+  desc: Using C language to build C interpreter.
+
+- name: Simple CPU
+  gh_user: yanjiuntw
+  repo: FPGA-class-project
+  img:
+  desc: Using Verilog to build a simple rsic cpu.
+
+- name: Image processing algorithm
+  gh_user: yanjiuntw
+  repo: Image_calculator
+  img:
+  desc: Using C# to implement some algorithm.
+
+- name: Simple Blockchain
+  gh_user: yanjiuntw
+  repo: Learning_blockchain
+  img:
+  desc: Using Python to implement simple blockchain.

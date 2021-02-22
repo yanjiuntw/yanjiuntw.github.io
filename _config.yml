@@ -1,0 +1,36 @@
+# Site settings
+title: 'Yan, Jun-Han'
+description: 'Business Card Page'
+url: 'https://www.yanjiuntw.github.io'
+baseurl: ''
+profilepic: 'https://avatars.githubusercontent.com/u/29607270?s=460&u=85805532e0e0beece292436bced919ccc6be6876&v=4'
+bkimage: '/images/bk.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'Yan, Jun-Han'
+  email: yanjiun.tw@gmail.com
+  # twitter_username: thomzuehlke
+  facebook_username: yanjiuntw
+  github_username:  yanjiuntw
+  #linkedin_username:
+  # meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
